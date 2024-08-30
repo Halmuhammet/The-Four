@@ -29,7 +29,7 @@ body{
     width: 600px;
 }
 
-@media  (max-width: 940px){
+/* @media  (max-width: 940px){
     .memberPage{
         flex-direction: column;
         display: block;
@@ -38,5 +38,17 @@ body{
         display: flex;
         max-width:350px;
     }
+} */
+@media (max-width: 940px) {
+    .memberPage {
+        flex-direction: column;
+        display: block;
+    }
+    .memberDescriptionSection {
+        display: block; /* Change this to block to stack the name and description */
+        max-width: 350px;
+    }
+    .memberName {
+        display: block; /* Ensures the name takes up its own line */
+    }
 }
-
