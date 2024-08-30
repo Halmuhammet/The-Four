@@ -32,6 +32,7 @@ body{
 @media  (max-width: 940px){
     .memberPage{
         flex-direction: column;
+        display: block;
     }
     .memberDescriptionSection{
         display: flex;
