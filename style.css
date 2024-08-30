@@ -28,3 +28,14 @@ body{
 .memberImage{
     width: 600px;
 }
+
+@media  (max-width: 940px){
+    .memberPage{
+        flex-direction: column;
+    }
+    .memberDescriptionSection{
+        display: flex;
+        max-width:350px;
+    }
+}
+
