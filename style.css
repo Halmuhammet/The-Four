@@ -1,0 +1,27 @@
+.groupName{
+    text-align: center;
+}
+body{
+    background-color: #edffd5;
+}
+/* .halImage{
+    padding-left: 100px;
+} */
+.memberName{
+    display: block;
+    font-weight: bolder;
+    font-size: large;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.memberPage{
+    width: 100%;
+    display: inline-flex;
+    margin-top: 50px;
+    margin-left: 8%;
+    /* justify-content: space-around; */
+    gap: 50px;
+}
+.memberDescriptionSection{
+    width: 500px;
+}
