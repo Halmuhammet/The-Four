@@ -45,8 +45,9 @@ body{
         display: block;
     }
     .memberDescriptionSection {
-        display: block; /* Change this to block to stack the name and description */
+        display: flex; /* Change this to block to stack the name and description */
         max-width: 350px;
+        flex-direction: column;
     }
     .memberName {
         display: block; /* Ensures the name takes up its own line */
