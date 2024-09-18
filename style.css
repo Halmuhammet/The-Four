@@ -78,6 +78,39 @@ body{
     font-size: 30px;
 }
 
+.schedule {
+    max-width: 80%;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin-bottom: 20px; ;
+}
+.agenda_and_schedule{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.day {
+    background-color: #e9e9e9;
+    padding: 10px;
+    border-radius: 5px;
+}
+.day h2 {
+    margin-top: 0;
+    color: #444;
+}
+.meeting {
+    background-color: #d4edda;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 3px;
+}
+.health-dept {
+    background-color: #cce5ff;
+}
+
 
 
 
