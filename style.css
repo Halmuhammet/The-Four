@@ -41,15 +41,7 @@ body{
     gap: 50px;
     min-height: 80vh; /* Adjust based on content size */
 }
-.project_description{
-    width: 85%;
-    display: inline-flex;
-    margin-top: 50px;
-    /* justify-content: space-around; */
-    gap: 50px;
-    height: 100vh;
-    margin-top: 200px;
-}
+
 .memberDescriptionSection{
     width: 500px;
     font-size: 25px;
@@ -84,9 +76,6 @@ body{
         display: block; /* Ensures the name takes up its own line */
     }
     }
-.project_title{
-    font-size: 30px;
-}
 
 .schedule {
     max-width: 80%;
