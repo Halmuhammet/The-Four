@@ -60,6 +60,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 .title-bar h1 {
+    background-color: #1a1a1a;
     font-size: 3rem;
     margin-bottom: 0.5rem;
 }
