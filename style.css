@@ -2,7 +2,7 @@
     text-align: center;
 }
 body{
-    background-color: #fffae8;
+    background-color: #f4f4f4;
 }
 
 .group_meetings_and_activities_header{
@@ -23,20 +23,28 @@ body{
     margin-bottom: 30px;
     font-size: 30px;
 }
-.memberPage{
-    width: 100%;
-    display: inline-flex;
-    margin-top: 50px;
-    margin-left: 8%;
-    /* justify-content: space-around; */
+.mambersContainer{
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.memberPage {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: 80%;
+    display: inline-flex; /* Ensure horizontal layout */
+    align-items: center; /* Center vertically */
+    margin: 50px auto; /* Horizontal centering with auto */
     gap: 50px;
-    height: 100vh;
+    min-height: 80vh; /* Adjust based on content size */
 }
 .project_description{
-    width: 100%;
+    width: 85%;
     display: inline-flex;
     margin-top: 50px;
-    margin-left: 8%;
     /* justify-content: space-around; */
     gap: 50px;
     height: 100vh;
@@ -47,7 +55,9 @@ body{
     font-size: 25px;
 }
 .memberImage{
+    border-radius: 10px;
     width: 600px;
+    height: 100%;
 }
 
 /* @media  (max-width: 940px){
@@ -110,6 +120,7 @@ body{
 .health-dept {
     background-color: #cce5ff;
 }
+
 
 
 
