@@ -1,5 +1,5 @@
 .hero {
-    min-height: 100vh;
+    height: 75vh;
     display: flex;
     align-items: center;
     padding: 2rem;
@@ -19,8 +19,8 @@
 }
 .project_description{
     font-size: 2rem;
+    margin-top: 2rem;
     margin-bottom: 1.5rem;
-    background-color: #ECF0F1;
     padding: 1.5rem;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -29,7 +29,7 @@
 }
 .project_title{
     font-size: 2rem;
-    margin-bottom: 1rem;
+    margin-top: 8rem;
     color: #1a1a1a;
 }
 .hero-image {
@@ -40,7 +40,6 @@
     border-radius: 8px;
     overflow: hidden; /* Ensure any overflow is hidden */
     margin-top: 80px;
-    
 }
 
 .hero-image img {
