@@ -2,6 +2,7 @@
     text-align: center;
 }
 body{
+
     background-color: #f4f4f4;
 }
 
@@ -131,6 +132,42 @@ body{
 .footer {
     height: 100vh; 
     
+}
+
+.video-container {
+    margin-left: 10%;
+    margin-bottom: 5%;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+.video-container:hover {
+    transform: scale(1.02);
+}
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+}
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.video-title {
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+    color: #333;
 }
 
 
